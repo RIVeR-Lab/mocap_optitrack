@@ -3,12 +3,12 @@
 # Identifier corresponds to Trackable ID set in Tracking Tools
 #
 rigid_bodies:
-    '49':
-        pose: jackal_jaco_base/pose
-        pose2d: jackal_jaco_base/ground_pose
-        odom: jackal_jaco_base/Odom
+    '51':
+        pose: jackal_jaco_body/pose
+        pose2d: jackal_jaco_body/ground_pose
+        odom: jackal_jaco_body/Odom
         tf: tf
-        child_frame_id: jackal_jaco_base/base_link
+        child_frame_id: jackal_jaco_body/base_link
         parent_frame_id: world
     '2':
         pose: Robot_2/pose
