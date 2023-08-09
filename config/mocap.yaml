@@ -8,17 +8,17 @@ rigid_bodies:
         pose2d: jackal_jaco_body/ground_pose
         odom: jackal_jaco_body/Odom
         tf: tf
-        child_frame_id: jackal_jaco_body/base_link
-        parent_frame_id: world
-    '2':
-        pose: Robot_2/pose
-        pose2d: Robot_2/ground_pose
-        odom: Robot_2/Odom
-        tf: tf
-        child_frame_id: Robot_2/base_link
-        parent_frame_id: world
+        child_frame_id: base_link_1
+        parent_frame_id: world_1
+    # '2':
+    #     pose: Robot_2/pose
+    #     pose2d: Robot_2/ground_pose
+    #     odom: Robot_2/Odom
+    #     tf: tf
+    #     child_frame_id: Robot_2/base_link
+    #     parent_frame_id: world
 optitrack_config:
-        multicast_address: 239.255.42.99
+        multicast_address: 239.244.42.99
         command_port: 1510
         data_port: 1511
         enable_optitrack: true
