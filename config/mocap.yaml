@@ -8,8 +8,8 @@ rigid_bodies:
         pose2d: jackal_jaco_body/ground_pose
         odom: jackal_jaco_body/Odom
         tf: tf
-        child_frame_id: base_link_1
-        parent_frame_id: world_1
+        child_frame_id: odom
+        parent_frame_id: world
     # '2':
     #     pose: Robot_2/pose
     #     pose2d: Robot_2/ground_pose
